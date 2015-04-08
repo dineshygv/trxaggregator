@@ -31,7 +31,6 @@ function shouldAddTest(run, outerTag, ids, index){
 			break;
 	}
 	if(ids[outerTag][id]){
-		console.log(outerTag + "-" + id);
 		return false;
 	}else{
 		ids[outerTag][id] = true;
